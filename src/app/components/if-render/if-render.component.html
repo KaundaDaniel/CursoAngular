@@ -1,0 +1,10 @@
+<p>Ola Minha Fa</p>
+
+<div *ngIf="canShow">
+  <p *ngIf="nome === 'Pedro'; else nomeNaoEncontrado">
+    How only whats is alowed
+  </p>
+  <ng-template #nomeNaoEncontrado>
+    <h2>O nome não encontrado!</h2>
+  </ng-template>
+</div>

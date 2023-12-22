@@ -1,0 +1,20 @@
+<h2>Two app-two-way-bind</h2>
+<form>
+  <input
+    type="text"
+    [(ngModel)]="name"
+    name="name"
+    placeholder="Digite o seu Nome"
+  />
+  <input type="submit" value="Enviar" />
+  <br />
+
+  <br />
+  <input type="text" [(ngModel)]="pais" name="nome" placeholder="Nome" />
+  <input type="submit" value="Apagar" />
+</form>
+<p>Digitado é {{ pais }}</p>
+
+<div *ngIf="name !== ''">
+  <p>O Nome é {{ name }}</p>
+</div>

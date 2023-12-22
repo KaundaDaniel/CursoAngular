@@ -1,0 +1,9 @@
+<ul>
+  <li *ngFor="let carro of marcasCarros">
+    Carros: {{ carro.marca }} - Ano: {{ carro.ano }}
+    <button (click)="showModelo(carro)">Mostra alguma coisa</button>
+    <br />
+    <button (click)="removeCarro(carro)">Apaga Carro</button>
+  </li>
+</ul>
+<p>{{ carroDetails }}</p>
