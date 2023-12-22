@@ -14,6 +14,7 @@ import { ChangeNumberComponent } from './components/change-number/change-number.
 import { ListRenderComponent } from './components/list-render/list-render.component';
 import { TwoWayBindComponent } from './components/two-way-bind/two-way-bind.component';
 import { FoodListComponent } from './shared/food-list/food-list.component';
+import { FooAddComponent } from './shared/foo-add/foo-add.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { FoodListComponent } from './shared/food-list/food-list.component';
     ListRenderComponent,
     TwoWayBindComponent,
     FoodListComponent,
+    FooAddComponent,
   ],
   imports: [
     BrowserModule,

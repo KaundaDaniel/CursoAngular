@@ -9,4 +9,7 @@ export class FoodListService {
   public getList() {
     return this.list;
   }
+  addItem(itemName: string) {
+    return this.list.push(itemName);
+  }
 }
