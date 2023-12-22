@@ -13,6 +13,7 @@ import { EmiterComponent } from './components/emiter/emiter.component';
 import { ChangeNumberComponent } from './components/change-number/change-number.component';
 import { ListRenderComponent } from './components/list-render/list-render.component';
 import { TwoWayBindComponent } from './components/two-way-bind/two-way-bind.component';
+import { FoodListComponent } from './shared/food-list/food-list.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { TwoWayBindComponent } from './components/two-way-bind/two-way-bind.comp
     EmiterComponent,
     ChangeNumberComponent,
     ListRenderComponent,
-    TwoWayBindComponent
+    TwoWayBindComponent,
+    FoodListComponent,
   ],
   imports: [
     BrowserModule,
